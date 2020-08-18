@@ -70,5 +70,8 @@ GROUP BY
 
 __NOTE:__ The __<Table_Name>__ is your table without having to use the schema prefix 
 
+# Output:
+<img src="https://raw.githubusercontent.com/OriolGilabertLopez/HandBooks/master/SQL%20Server/Images/OutputLeagestTables.png" alt="drawing" width="700"/>
+
 
 Soure: [Maybe unknown](https://social.msdn.microsoft.com/Forums/sqlserver/en-US/c6861dc1-b5fd-4749-b9e1-a180b3b9734c/size-of-sql-server-2008-r2-database-question?forum=sqlkjmanageability)
