@@ -1,5 +1,5 @@
 
-# Fins Largest tables in a SQLS DB
+# Find Largest tables in a SQLS DB
 
 To find the LARGEST TABLES we will use the following objects:
 
