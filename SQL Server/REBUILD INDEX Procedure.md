@@ -6,7 +6,7 @@ This simple command rebuilds indexes of a specific table:
 ALTER INDEX ALL ON Table_Name REBUILD;
 ```
 
-## Procedure sp_RebildIndex
+## PROCEDURE `sp_RebildIndex`
 
 But we can create a consistent procedure to rebuil indexes based on a threhold. 
 
