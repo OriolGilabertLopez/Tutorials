@@ -1,17 +1,25 @@
 # SQL UPDATE Statement
 
-In this section whe learn how to modify the existing records in a table.
 
-## Simple UPDATE
+
+# Simple UPDATE
+
+In this section whe learn how to modify the existing records in a table. It is well known that UPDATE Statement follows this syntax: 
+
 ```sql
 UPDATE TablaToUpdate 
 SET Column_1 = <value_1>,  
     Column_n = <value_n>, 
 WHERE ColConditon = <recordsToUpdate>;
 ```
-The __WHERE__ clause specifies which record(s) that should be updated. If you omit the WHERE clause, __all__ records in the table will be updated!
+The __WHERE__ clause specifies which record(s) that should be updated. If you omit the WHERE clause, __all__ records in the table will be updated! 
+
+
 
 ## Conditional UPDATE: Using values from other tables (LEFTs, INNERs, etc)
+
+But.. normally we depend on other tables to update the records. In this case, we need to write the following code
+
 ```sql
 UPDATE Table_1 
 SET Table_1.Col1 = T2.Col2, 
