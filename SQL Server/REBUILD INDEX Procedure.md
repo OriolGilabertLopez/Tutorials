@@ -114,7 +114,7 @@ CREATE TABLE Table_RealTime_RebuildIndex(
 -- LOOP
 WHILE @cnt <= @NumTablesToRebuildIndex
 BEGIN
--- Catching errors in case of error
+-- Catching errors
 	BEGIN TRY
 					
 		-- Table Name
@@ -138,7 +138,7 @@ BEGIN
                                                                       DATEDIFF(mcs, @Date, GETDATE()),
                                                                       CAST('1900-01-01 00:00:00.000' AS DATETIME2))
                                            ), 11, 12)		   	
-	-- We update the values of the column table
+	-- update the column table values 
 		UPDATE Table_RealTime_RebuildIndex
 		SET [Tables]  = @CurrentTable,
 		    [Process] = 'SUCCESS: ' ,
