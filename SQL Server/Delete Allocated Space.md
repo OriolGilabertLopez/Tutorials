@@ -1,4 +1,4 @@
-# Delete  data space allocated
+# Delete allocated sapace ins SQL Server 
 
 The data space allocated is The amount of formatted files space made available for storing database data. 
 
