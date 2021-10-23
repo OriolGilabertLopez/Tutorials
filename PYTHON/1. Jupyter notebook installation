@@ -1,0 +1,18 @@
+# Jupyter notebook installation
+
+Jupyter notebook is a very power tool for developing and presenting data science projects. In a notebook, you can write and run code and visualize the output. In addition, you can add rich text, mathematical equations and other rich media to create an understandable and shareable document.
+Most of the material of this course will consist of Jupyter notebook files. You’ll need to have Jupyter notebook to be able to open them.
+
+
+#Installation
+
+The easiest way for a beginner to get started with Jupyter Notebooks is by
+installing Anaconda.
+Anaconda is the most widely used Python distribution for data science and comes pre- loaded with all the most popular libraries and tools.
+To get Anaconda, simply:
+* 1. Download the latest version of Anaconda for Python 3.8.
+* 2. Install Anaconda by following the instructions on the download page and/or in the executable.
+ 
+There are other ways you can get Jupyter installed, you can check them [!here](https://jupyter.org/install)
+ 
+To check that you’ve successfully installed Jupyter notebook, just open a new terminal window and type jupyter notebook. That should open a new notebook in your browser.
